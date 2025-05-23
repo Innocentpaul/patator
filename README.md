@@ -327,7 +327,7 @@ cd pyinstaller
 git checkout a2b0617251ebe70412f6e3573f00a49ce08b7b32 # fixes this issue: https://groups.google.com/forum/#!topic/pyinstaller/6xD75_w4F-c
 python pyinstaller.py --clean --onefile c:\patator\patator.py
 patator\dist\patator.exe -h
-```
+````
 
 The resulting stand-alone `patator.exe` executable was confirmed to run successfully on Windows 2003 (5.2.3790), Windows 7 (6.1.7600), Windows 2008 R2 SP1 (6.1.7601) and Windows 2012 R2 (6.3.9600), and is likely to work fine on other Windows versions.
 
